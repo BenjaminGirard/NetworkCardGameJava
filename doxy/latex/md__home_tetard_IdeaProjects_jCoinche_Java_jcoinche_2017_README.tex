@@ -1,0 +1,106 @@
+This is a school project in Java. The aim of the project was to learn Java programming language features by programming a network card Game. It\textquotesingle{}s a french game named \char`\"{}\+La belotte coinchée\char`\"{}.
+
+For more informations about the game, see the official \href{http://www.beloteweb.eu/regles-de-la-belote-coinchee/}{\tt Belotte Coinchée Website}.
+
+\subsection*{Getting Started}
+
+To clone the repository\+: 
+\begin{DoxyCode}
+git clone git@git@epitech.eu:/girard\_z/Java\_jcoinche\_2017
+cd Java\_jcoinche\_2017
+\end{DoxyCode}
+
+
+\subsubsection*{Prerequisites}
+
+You should install \href{https://maven.apache.org/plugins/maven-compiler-plugin/index.html}{\tt Maven} and have at least the 8th version of \href{http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html}{\tt Jdk}.
+
+\subsubsection*{Installing}
+
+First of all, install the dependencies and the environment\+:
+
+
+\begin{DoxyCode}
+mvn install
+\end{DoxyCode}
+
+
+Compile sources\+:
+
+
+\begin{DoxyCode}
+mvn compile
+\end{DoxyCode}
+
+
+Create packages\+: 
+\begin{DoxyCode}
+mvn package
+\end{DoxyCode}
+
+
+\subsubsection*{Running}
+
+
+\begin{DoxyCode}
+java -jar target/jcoinche-client.jar [ip address] [port]
+java -jar target/jcoinche-server.jar [port]
+\end{DoxyCode}
+
+
+\subsection*{Documentation}
+
+open {\ttfamily target/site/apidocs/index.\+html} or open {\ttfamily doxy/html/index.\+html}
+
+\subsection*{Description}
+
+The is a multiroom network game of coinche.
+
+\subsubsection*{Rooms}
+
+Each player is able to create/join a room. When four players are in a room, the party begins. When a player leaves a room / disconnect, the party is over and the room is waiting for a fourth player.
+
+\subsubsection*{The Game}
+
+When 4 players are ready in a room, the first player to be played can call.
+\begin{DoxyItemize}
+\item If nobody calls, cards are redistributed
+\item if Somone Calls, the three next players have to skip there call to let the game begins.
+\end{DoxyItemize}
+
+\subsection*{The Commands}
+
+you can type {\ttfamily help} to see the help.
+
+
+\begin{DoxyCode}
+help            ->      Helper
+createroom      ->      Ask to create a room and join it if authorized
+leave           ->      Ask to leave a room and leaves it if authorized 
+disconnect      ->      Disconnect client
+roomlist        ->      Show the list of rooms
+join            ->      Try to join a room
+ready           ->      Say to the room that you are ready to play
+showmycards     ->      Display cards in your hands
+call            ->      Make a call during the calling phase
+\end{DoxyCode}
+
+
+\subsection*{Built With}
+
+
+\begin{DoxyItemize}
+\item \href{https://maven.apache.org/}{\tt Maven} -\/ Dependency Management
+\end{DoxyItemize}
+
+\subsection*{Authors}
+
+
+\begin{DoxyItemize}
+\item {\bfseries Yohann N\textquotesingle{}Goala} -\/ {\itshape Software developer Front\+End} -\/ \href{https://github.com/YohannNgoala}{\tt Yoyo\+Le\+Ouf}
+\item {\bfseries Benjamin Girard} -\/ {\itshape Software developer Back\+End} -\/ \href{https://github.com/BenjaminGirard}{\tt Têtard}
+\end{DoxyItemize}
+
+\subsection*{License}
+
+This project is licensed under the E\+P\+I\+T\+E\+CH License. 

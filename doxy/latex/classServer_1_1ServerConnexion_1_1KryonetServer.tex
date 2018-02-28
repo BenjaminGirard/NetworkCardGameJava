@@ -1,0 +1,144 @@
+\hypertarget{classServer_1_1ServerConnexion_1_1KryonetServer}{}\section{Server.\+Server\+Connexion.\+Kryonet\+Server Class Reference}
+\label{classServer_1_1ServerConnexion_1_1KryonetServer}\index{Server.\+Server\+Connexion.\+Kryonet\+Server@{Server.\+Server\+Connexion.\+Kryonet\+Server}}
+
+
+Inheritance diagram for Server.\+Server\+Connexion.\+Kryonet\+Server\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=256pt]{classServer_1_1ServerConnexion_1_1KryonetServer__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Server.\+Server\+Connexion.\+Kryonet\+Server\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=256pt]{classServer_1_1ServerConnexion_1_1KryonetServer__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classServer_1_1ServerConnexion_1_1KryonetServer_a2882e79befe13a8c4d03316ee7e4629c}{Kryonet\+Server}} (int port)
+\item 
+void \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1KryonetServer_a5462e9f47eb97acd2d8353c825bf9f3b}{specify\+Port}} (int port)
+\item 
+void \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1KryonetServer_a8bad9bf2baafbe83e2a6153c22b86bae}{start\+Server}} ()
+\item 
+void \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1KryonetServer_a9ee03f7e9a0b2d685f4e70af32a8204e}{disconnect\+Server}} ()
+\item 
+Concurrent\+Hash\+Map$<$ Integer, \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1ClientInfos}{Client\+Infos}} $>$ \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1KryonetServer_a49d513edab305edc72d56d173dd44ad3}{get\+Clients}} ()
+\item 
+void \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1KryonetServer_ac594217673743346d963fa9e04f7a9dc}{create\+Room}} (\mbox{\hyperlink{classServer_1_1ServerConnexion_1_1ClientInfos}{Client\+Infos}} client)
+\item 
+Server \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1KryonetServer_a2fc9a796907080bcbe65ec24304cca42}{get\+Server}} ()
+\item 
+\mbox{\hyperlink{classServer_1_1ServerConnexion_1_1Room}{Room}} \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1KryonetServer_a4f294be7cbfd6a2c94191d3c488a9a12}{get\+Room}} (int room\+Id)
+\item 
+Concurrent\+Hash\+Map$<$ Integer, \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1Room}{Room}} $>$ \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1KryonetServer_ae0ff8432defb56e7801cac76e92c208d}{get\+Rooms}} ()
+\item 
+\mbox{\hyperlink{classServer_1_1ServerConnexion_1_1ClientInfos}{Client\+Infos}} \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1KryonetServer_a0bc98a11530ff1d8734c29c7452b92f4}{get\+Client}} (int id)
+\item 
+void \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1KryonetServer_acf5490a67284ed588a2167a12559ac5f}{debug\+Server}} ()  throws I\+O\+Exception 
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classServer_1_1ServerConnexion_1_1KryonetServer_a2882e79befe13a8c4d03316ee7e4629c}\label{classServer_1_1ServerConnexion_1_1KryonetServer_a2882e79befe13a8c4d03316ee7e4629c}} 
+\index{Server\+::\+Server\+Connexion\+::\+Kryonet\+Server@{Server\+::\+Server\+Connexion\+::\+Kryonet\+Server}!Kryonet\+Server@{Kryonet\+Server}}
+\index{Kryonet\+Server@{Kryonet\+Server}!Server\+::\+Server\+Connexion\+::\+Kryonet\+Server@{Server\+::\+Server\+Connexion\+::\+Kryonet\+Server}}
+\subsubsection{\texorpdfstring{Kryonet\+Server()}{KryonetServer()}}
+{\footnotesize\ttfamily Server.\+Server\+Connexion.\+Kryonet\+Server.\+Kryonet\+Server (\begin{DoxyParamCaption}\item[{int}]{port }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classServer_1_1ServerConnexion_1_1KryonetServer_ac594217673743346d963fa9e04f7a9dc}\label{classServer_1_1ServerConnexion_1_1KryonetServer_ac594217673743346d963fa9e04f7a9dc}} 
+\index{Server\+::\+Server\+Connexion\+::\+Kryonet\+Server@{Server\+::\+Server\+Connexion\+::\+Kryonet\+Server}!create\+Room@{create\+Room}}
+\index{create\+Room@{create\+Room}!Server\+::\+Server\+Connexion\+::\+Kryonet\+Server@{Server\+::\+Server\+Connexion\+::\+Kryonet\+Server}}
+\subsubsection{\texorpdfstring{create\+Room()}{createRoom()}}
+{\footnotesize\ttfamily void Server.\+Server\+Connexion.\+Kryonet\+Server.\+create\+Room (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classServer_1_1ServerConnexion_1_1ClientInfos}{Client\+Infos}}}]{client }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfaceServer_1_1ServerConnexion_1_1IServer_a3b0485118add6720d6526c59605404d2}{Server.\+Server\+Connexion.\+I\+Server}}.
+
+\mbox{\Hypertarget{classServer_1_1ServerConnexion_1_1KryonetServer_acf5490a67284ed588a2167a12559ac5f}\label{classServer_1_1ServerConnexion_1_1KryonetServer_acf5490a67284ed588a2167a12559ac5f}} 
+\index{Server\+::\+Server\+Connexion\+::\+Kryonet\+Server@{Server\+::\+Server\+Connexion\+::\+Kryonet\+Server}!debug\+Server@{debug\+Server}}
+\index{debug\+Server@{debug\+Server}!Server\+::\+Server\+Connexion\+::\+Kryonet\+Server@{Server\+::\+Server\+Connexion\+::\+Kryonet\+Server}}
+\subsubsection{\texorpdfstring{debug\+Server()}{debugServer()}}
+{\footnotesize\ttfamily void Server.\+Server\+Connexion.\+Kryonet\+Server.\+debug\+Server (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classServer_1_1ServerConnexion_1_1KryonetServer_a9ee03f7e9a0b2d685f4e70af32a8204e}\label{classServer_1_1ServerConnexion_1_1KryonetServer_a9ee03f7e9a0b2d685f4e70af32a8204e}} 
+\index{Server\+::\+Server\+Connexion\+::\+Kryonet\+Server@{Server\+::\+Server\+Connexion\+::\+Kryonet\+Server}!disconnect\+Server@{disconnect\+Server}}
+\index{disconnect\+Server@{disconnect\+Server}!Server\+::\+Server\+Connexion\+::\+Kryonet\+Server@{Server\+::\+Server\+Connexion\+::\+Kryonet\+Server}}
+\subsubsection{\texorpdfstring{disconnect\+Server()}{disconnectServer()}}
+{\footnotesize\ttfamily void Server.\+Server\+Connexion.\+Kryonet\+Server.\+disconnect\+Server (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfaceServer_1_1ServerConnexion_1_1IServer_abad216cef2fde213cfe1e69f2be7b496}{Server.\+Server\+Connexion.\+I\+Server}}.
+
+\mbox{\Hypertarget{classServer_1_1ServerConnexion_1_1KryonetServer_a0bc98a11530ff1d8734c29c7452b92f4}\label{classServer_1_1ServerConnexion_1_1KryonetServer_a0bc98a11530ff1d8734c29c7452b92f4}} 
+\index{Server\+::\+Server\+Connexion\+::\+Kryonet\+Server@{Server\+::\+Server\+Connexion\+::\+Kryonet\+Server}!get\+Client@{get\+Client}}
+\index{get\+Client@{get\+Client}!Server\+::\+Server\+Connexion\+::\+Kryonet\+Server@{Server\+::\+Server\+Connexion\+::\+Kryonet\+Server}}
+\subsubsection{\texorpdfstring{get\+Client()}{getClient()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1ClientInfos}{Client\+Infos}} Server.\+Server\+Connexion.\+Kryonet\+Server.\+get\+Client (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classServer_1_1ServerConnexion_1_1KryonetServer_a49d513edab305edc72d56d173dd44ad3}\label{classServer_1_1ServerConnexion_1_1KryonetServer_a49d513edab305edc72d56d173dd44ad3}} 
+\index{Server\+::\+Server\+Connexion\+::\+Kryonet\+Server@{Server\+::\+Server\+Connexion\+::\+Kryonet\+Server}!get\+Clients@{get\+Clients}}
+\index{get\+Clients@{get\+Clients}!Server\+::\+Server\+Connexion\+::\+Kryonet\+Server@{Server\+::\+Server\+Connexion\+::\+Kryonet\+Server}}
+\subsubsection{\texorpdfstring{get\+Clients()}{getClients()}}
+{\footnotesize\ttfamily Concurrent\+Hash\+Map$<$Integer, \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1ClientInfos}{Client\+Infos}}$>$ Server.\+Server\+Connexion.\+Kryonet\+Server.\+get\+Clients (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfaceServer_1_1ServerConnexion_1_1IServer_a0b71f139e86b01657d54b4be165d0c8d}{Server.\+Server\+Connexion.\+I\+Server}}.
+
+\mbox{\Hypertarget{classServer_1_1ServerConnexion_1_1KryonetServer_a4f294be7cbfd6a2c94191d3c488a9a12}\label{classServer_1_1ServerConnexion_1_1KryonetServer_a4f294be7cbfd6a2c94191d3c488a9a12}} 
+\index{Server\+::\+Server\+Connexion\+::\+Kryonet\+Server@{Server\+::\+Server\+Connexion\+::\+Kryonet\+Server}!get\+Room@{get\+Room}}
+\index{get\+Room@{get\+Room}!Server\+::\+Server\+Connexion\+::\+Kryonet\+Server@{Server\+::\+Server\+Connexion\+::\+Kryonet\+Server}}
+\subsubsection{\texorpdfstring{get\+Room()}{getRoom()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1Room}{Room}} Server.\+Server\+Connexion.\+Kryonet\+Server.\+get\+Room (\begin{DoxyParamCaption}\item[{int}]{room\+Id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classServer_1_1ServerConnexion_1_1KryonetServer_ae0ff8432defb56e7801cac76e92c208d}\label{classServer_1_1ServerConnexion_1_1KryonetServer_ae0ff8432defb56e7801cac76e92c208d}} 
+\index{Server\+::\+Server\+Connexion\+::\+Kryonet\+Server@{Server\+::\+Server\+Connexion\+::\+Kryonet\+Server}!get\+Rooms@{get\+Rooms}}
+\index{get\+Rooms@{get\+Rooms}!Server\+::\+Server\+Connexion\+::\+Kryonet\+Server@{Server\+::\+Server\+Connexion\+::\+Kryonet\+Server}}
+\subsubsection{\texorpdfstring{get\+Rooms()}{getRooms()}}
+{\footnotesize\ttfamily Concurrent\+Hash\+Map$<$Integer, \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1Room}{Room}}$>$ Server.\+Server\+Connexion.\+Kryonet\+Server.\+get\+Rooms (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classServer_1_1ServerConnexion_1_1KryonetServer_a2fc9a796907080bcbe65ec24304cca42}\label{classServer_1_1ServerConnexion_1_1KryonetServer_a2fc9a796907080bcbe65ec24304cca42}} 
+\index{Server\+::\+Server\+Connexion\+::\+Kryonet\+Server@{Server\+::\+Server\+Connexion\+::\+Kryonet\+Server}!get\+Server@{get\+Server}}
+\index{get\+Server@{get\+Server}!Server\+::\+Server\+Connexion\+::\+Kryonet\+Server@{Server\+::\+Server\+Connexion\+::\+Kryonet\+Server}}
+\subsubsection{\texorpdfstring{get\+Server()}{getServer()}}
+{\footnotesize\ttfamily Server Server.\+Server\+Connexion.\+Kryonet\+Server.\+get\+Server (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classServer_1_1ServerConnexion_1_1KryonetServer_a5462e9f47eb97acd2d8353c825bf9f3b}\label{classServer_1_1ServerConnexion_1_1KryonetServer_a5462e9f47eb97acd2d8353c825bf9f3b}} 
+\index{Server\+::\+Server\+Connexion\+::\+Kryonet\+Server@{Server\+::\+Server\+Connexion\+::\+Kryonet\+Server}!specify\+Port@{specify\+Port}}
+\index{specify\+Port@{specify\+Port}!Server\+::\+Server\+Connexion\+::\+Kryonet\+Server@{Server\+::\+Server\+Connexion\+::\+Kryonet\+Server}}
+\subsubsection{\texorpdfstring{specify\+Port()}{specifyPort()}}
+{\footnotesize\ttfamily void Server.\+Server\+Connexion.\+Kryonet\+Server.\+specify\+Port (\begin{DoxyParamCaption}\item[{int}]{port }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfaceServer_1_1ServerConnexion_1_1IServer_a708adb2b4f2312b4319496d92357bd0e}{Server.\+Server\+Connexion.\+I\+Server}}.
+
+\mbox{\Hypertarget{classServer_1_1ServerConnexion_1_1KryonetServer_a8bad9bf2baafbe83e2a6153c22b86bae}\label{classServer_1_1ServerConnexion_1_1KryonetServer_a8bad9bf2baafbe83e2a6153c22b86bae}} 
+\index{Server\+::\+Server\+Connexion\+::\+Kryonet\+Server@{Server\+::\+Server\+Connexion\+::\+Kryonet\+Server}!start\+Server@{start\+Server}}
+\index{start\+Server@{start\+Server}!Server\+::\+Server\+Connexion\+::\+Kryonet\+Server@{Server\+::\+Server\+Connexion\+::\+Kryonet\+Server}}
+\subsubsection{\texorpdfstring{start\+Server()}{startServer()}}
+{\footnotesize\ttfamily void Server.\+Server\+Connexion.\+Kryonet\+Server.\+start\+Server (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfaceServer_1_1ServerConnexion_1_1IServer_a13c33c54ae46ee73c99ae8b9a70b9397}{Server.\+Server\+Connexion.\+I\+Server}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/tetard/\+Idea\+Projects/j\+Coinche/\+Java\+\_\+jcoinche\+\_\+2017/src/main/java/\+Server/\+Server\+Connexion/\mbox{\hyperlink{KryonetServer_8java}{Kryonet\+Server.\+java}}\end{DoxyCompactItemize}

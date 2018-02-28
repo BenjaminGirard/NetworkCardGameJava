@@ -1,0 +1,5 @@
+<map id="Common.CardPlayed" name="Common.CardPlayed">
+<area shape="rect" id="node2" href="$classCommon_1_1Card.html" title="{Common.Card\n||+ Card()\l+ fill()\l+ getNbr()\l+ getColor()\l+ getIsPlayable()\l+ setIsPlayable()\l+ getId()\l}" alt="" coords="228,204,363,369"/>
+<area shape="rect" id="node6" href="$classCommon_1_1Player.html" title="{Common.Player\n||+ Player()\l+ fill()\l+ getId()\l+ setId()\l+ getUserName()\l+ setUserName()\l}" alt="" coords="67,211,204,362"/>
+<area shape="rect" id="node5" href="$enumCommon_1_1Color.html" title="{Common.Color\n|+ Heart\l+ Diamond\l+ Club\l+ Spade\l|}" alt="" coords="236,5,355,127"/>
+</map>

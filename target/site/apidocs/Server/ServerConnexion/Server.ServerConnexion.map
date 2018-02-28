@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./IServer.html" title="Server.ServerConnexion.IServer" alt="" coords="16,115,416,277"/>
+<area shape="rect" id="node1" href="./IServer.html" title="&lt;TABLE&gt;" alt="" coords="5,109,427,283"/>
+<area shape="rect" id="node2_1" href="./KryonetServer.html" title="Server.ServerConnexion.KryonetServer" alt="" coords="16,440,416,689"/>
+<area shape="rect" id="node2" href="./KryonetServer.html" title="&lt;TABLE&gt;" alt="" coords="5,435,427,695"/>
+<area shape="rect" id="node3_2" href="./RequestHandler.html" title="Server.ServerConnexion.RequestHandler" alt="" coords="462,123,954,269"/>
+<area shape="rect" id="node3" href="./RequestHandler.html" title="&lt;TABLE&gt;" alt="" coords="451,118,965,274"/>
+<area shape="rect" id="node4_3" href="./Room.html" title="Server.ServerConnexion.Room" alt="" coords="1000,28,1693,364"/>
+<area shape="rect" id="node4" href="./Room.html" title="&lt;TABLE&gt;" alt="" coords="989,23,1704,369"/>
+<area shape="rect" id="node5_4" href="./ClientInfos.html" title="Server.ServerConnexion.ClientInfos" alt="" coords="1739,11,2021,381"/>
+<area shape="rect" id="node5" href="./ClientInfos.html" title="&lt;TABLE&gt;" alt="" coords="1729,5,2031,387"/>
+</map>

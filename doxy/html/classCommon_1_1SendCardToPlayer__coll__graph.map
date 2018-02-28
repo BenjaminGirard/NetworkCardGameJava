@@ -1,0 +1,4 @@
+<map id="Common.SendCardToPlayer" name="Common.SendCardToPlayer">
+<area shape="rect" id="node2" href="$classCommon_1_1Card.html" title="{Common.Card\n||+ Card()\l+ fill()\l+ getNbr()\l+ getColor()\l+ getIsPlayable()\l+ setIsPlayable()\l+ getId()\l}" alt="" coords="40,204,175,369"/>
+<area shape="rect" id="node5" href="$enumCommon_1_1Color.html" title="{Common.Color\n|+ Heart\l+ Diamond\l+ Club\l+ Spade\l|}" alt="" coords="169,5,288,127"/>
+</map>

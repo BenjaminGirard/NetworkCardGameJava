@@ -1,0 +1,154 @@
+\hypertarget{classServer_1_1ServerConnexion_1_1Room}{}\section{Server.\+Server\+Connexion.\+Room Class Reference}
+\label{classServer_1_1ServerConnexion_1_1Room}\index{Server.\+Server\+Connexion.\+Room@{Server.\+Server\+Connexion.\+Room}}
+
+
+Collaboration diagram for Server.\+Server\+Connexion.\+Room\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=246pt]{classServer_1_1ServerConnexion_1_1Room__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classServer_1_1ServerConnexion_1_1Room_a191c2d5940dc3c6cb1fece18e879a64d}{Room}} (int id, \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1ClientInfos}{Client\+Infos}} client, Server server, Concurrent\+Hash\+Map$<$ Integer, \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1ClientInfos}{Client\+Infos}} $>$ clients)
+\item 
+void \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1Room_a1c5bc1300ad6c1be3019e20fc44bce79}{attribute\+Team}} ()
+\item 
+void \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1Room_afc78e8884ccced8e6ccddcdf9c3b0d81}{add\+Client}} (\mbox{\hyperlink{classServer_1_1ServerConnexion_1_1ClientInfos}{Client\+Infos}} client)
+\item 
+boolean \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1Room_a5b478e86f07cb7f40db27f8db26fb955}{try\+Remove\+Client}} (Integer id, Concurrent\+Hash\+Map$<$ Integer, \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1Room}{Room}} $>$ room\+List)
+\item 
+Array\+List$<$ \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1ClientInfos}{Client\+Infos}} $>$ \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1Room_aa8d4955026b246208bfda5e6a1199e86}{get\+Clients}} ()
+\item 
+\mbox{\hyperlink{classServer_1_1ServerConnexion_1_1ClientInfos}{Client\+Infos}} \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1Room_a22d44a6dcc0a72fb36c1be8d355c1f53}{get\+Client}} (int idx)
+\item 
+int \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1Room_a952b0f724c1f5e04a78a70dfed594c20}{how\+Many\+Clients}} ()
+\item 
+void \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1Room_a53c24cabf3f30a8aff5e4a563d5f08d7}{send\+All\+Message}} (Object o)
+\item 
+void \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1Room_a7cd935fd7d302c107bb42d8c7faf5d75}{send\+To\+Room}} (Object o)
+\item 
+int \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1Room_a14346f0160466c67d28dbf45926225b2}{get\+Id}} ()
+\item 
+\mbox{\hyperlink{classCommon_1_1RoomInfo}{Room\+Info}} \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1Room_a770cf7370fbcf6cef279f4ea260159fe}{get\+Room\+Infos}} ()
+\item 
+Server \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1Room_a82aa25bc3f5406ce06589c92f12f59e1}{get\+Server}} ()
+\item 
+boolean \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1Room_a2e67e0da5adef24542d2082828e75a88}{is\+Everyone\+Ready}} ()
+\item 
+\mbox{\hyperlink{classServer_1_1ServerConnexion_1_1ClientInfos}{Client\+Infos}} \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1Room_a60fc7bece76f7b765c2d32501af4d960}{get\+Client\+From\+Id}} (int id)
+\item 
+void \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1Room_a6a2dd1ea8ed605869b42d4b2a183acc4}{redistribute}} ()
+\item 
+\mbox{\hyperlink{classServer_1_1Game_1_1GameMasterCoinche}{Game\+Master\+Coinche}} \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1Room_aa7f336575bfad4b96f80c164f41d1517}{get\+G\+M\+Coinche}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classServer_1_1ServerConnexion_1_1Room_a191c2d5940dc3c6cb1fece18e879a64d}\label{classServer_1_1ServerConnexion_1_1Room_a191c2d5940dc3c6cb1fece18e879a64d}} 
+\index{Server\+::\+Server\+Connexion\+::\+Room@{Server\+::\+Server\+Connexion\+::\+Room}!Room@{Room}}
+\index{Room@{Room}!Server\+::\+Server\+Connexion\+::\+Room@{Server\+::\+Server\+Connexion\+::\+Room}}
+\subsubsection{\texorpdfstring{Room()}{Room()}}
+{\footnotesize\ttfamily Server.\+Server\+Connexion.\+Room.\+Room (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{\mbox{\hyperlink{classServer_1_1ServerConnexion_1_1ClientInfos}{Client\+Infos}}}]{client,  }\item[{Server}]{server,  }\item[{Concurrent\+Hash\+Map$<$ Integer, \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1ClientInfos}{Client\+Infos}} $>$}]{clients }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classServer_1_1ServerConnexion_1_1Room_afc78e8884ccced8e6ccddcdf9c3b0d81}\label{classServer_1_1ServerConnexion_1_1Room_afc78e8884ccced8e6ccddcdf9c3b0d81}} 
+\index{Server\+::\+Server\+Connexion\+::\+Room@{Server\+::\+Server\+Connexion\+::\+Room}!add\+Client@{add\+Client}}
+\index{add\+Client@{add\+Client}!Server\+::\+Server\+Connexion\+::\+Room@{Server\+::\+Server\+Connexion\+::\+Room}}
+\subsubsection{\texorpdfstring{add\+Client()}{addClient()}}
+{\footnotesize\ttfamily void Server.\+Server\+Connexion.\+Room.\+add\+Client (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classServer_1_1ServerConnexion_1_1ClientInfos}{Client\+Infos}}}]{client }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classServer_1_1ServerConnexion_1_1Room_a1c5bc1300ad6c1be3019e20fc44bce79}\label{classServer_1_1ServerConnexion_1_1Room_a1c5bc1300ad6c1be3019e20fc44bce79}} 
+\index{Server\+::\+Server\+Connexion\+::\+Room@{Server\+::\+Server\+Connexion\+::\+Room}!attribute\+Team@{attribute\+Team}}
+\index{attribute\+Team@{attribute\+Team}!Server\+::\+Server\+Connexion\+::\+Room@{Server\+::\+Server\+Connexion\+::\+Room}}
+\subsubsection{\texorpdfstring{attribute\+Team()}{attributeTeam()}}
+{\footnotesize\ttfamily void Server.\+Server\+Connexion.\+Room.\+attribute\+Team (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classServer_1_1ServerConnexion_1_1Room_a22d44a6dcc0a72fb36c1be8d355c1f53}\label{classServer_1_1ServerConnexion_1_1Room_a22d44a6dcc0a72fb36c1be8d355c1f53}} 
+\index{Server\+::\+Server\+Connexion\+::\+Room@{Server\+::\+Server\+Connexion\+::\+Room}!get\+Client@{get\+Client}}
+\index{get\+Client@{get\+Client}!Server\+::\+Server\+Connexion\+::\+Room@{Server\+::\+Server\+Connexion\+::\+Room}}
+\subsubsection{\texorpdfstring{get\+Client()}{getClient()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1ClientInfos}{Client\+Infos}} Server.\+Server\+Connexion.\+Room.\+get\+Client (\begin{DoxyParamCaption}\item[{int}]{idx }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classServer_1_1ServerConnexion_1_1Room_a60fc7bece76f7b765c2d32501af4d960}\label{classServer_1_1ServerConnexion_1_1Room_a60fc7bece76f7b765c2d32501af4d960}} 
+\index{Server\+::\+Server\+Connexion\+::\+Room@{Server\+::\+Server\+Connexion\+::\+Room}!get\+Client\+From\+Id@{get\+Client\+From\+Id}}
+\index{get\+Client\+From\+Id@{get\+Client\+From\+Id}!Server\+::\+Server\+Connexion\+::\+Room@{Server\+::\+Server\+Connexion\+::\+Room}}
+\subsubsection{\texorpdfstring{get\+Client\+From\+Id()}{getClientFromId()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1ClientInfos}{Client\+Infos}} Server.\+Server\+Connexion.\+Room.\+get\+Client\+From\+Id (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classServer_1_1ServerConnexion_1_1Room_aa8d4955026b246208bfda5e6a1199e86}\label{classServer_1_1ServerConnexion_1_1Room_aa8d4955026b246208bfda5e6a1199e86}} 
+\index{Server\+::\+Server\+Connexion\+::\+Room@{Server\+::\+Server\+Connexion\+::\+Room}!get\+Clients@{get\+Clients}}
+\index{get\+Clients@{get\+Clients}!Server\+::\+Server\+Connexion\+::\+Room@{Server\+::\+Server\+Connexion\+::\+Room}}
+\subsubsection{\texorpdfstring{get\+Clients()}{getClients()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classServer_1_1ServerConnexion_1_1ClientInfos}{Client\+Infos}}$>$ Server.\+Server\+Connexion.\+Room.\+get\+Clients (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classServer_1_1ServerConnexion_1_1Room_aa7f336575bfad4b96f80c164f41d1517}\label{classServer_1_1ServerConnexion_1_1Room_aa7f336575bfad4b96f80c164f41d1517}} 
+\index{Server\+::\+Server\+Connexion\+::\+Room@{Server\+::\+Server\+Connexion\+::\+Room}!get\+G\+M\+Coinche@{get\+G\+M\+Coinche}}
+\index{get\+G\+M\+Coinche@{get\+G\+M\+Coinche}!Server\+::\+Server\+Connexion\+::\+Room@{Server\+::\+Server\+Connexion\+::\+Room}}
+\subsubsection{\texorpdfstring{get\+G\+M\+Coinche()}{getGMCoinche()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classServer_1_1Game_1_1GameMasterCoinche}{Game\+Master\+Coinche}} Server.\+Server\+Connexion.\+Room.\+get\+G\+M\+Coinche (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classServer_1_1ServerConnexion_1_1Room_a14346f0160466c67d28dbf45926225b2}\label{classServer_1_1ServerConnexion_1_1Room_a14346f0160466c67d28dbf45926225b2}} 
+\index{Server\+::\+Server\+Connexion\+::\+Room@{Server\+::\+Server\+Connexion\+::\+Room}!get\+Id@{get\+Id}}
+\index{get\+Id@{get\+Id}!Server\+::\+Server\+Connexion\+::\+Room@{Server\+::\+Server\+Connexion\+::\+Room}}
+\subsubsection{\texorpdfstring{get\+Id()}{getId()}}
+{\footnotesize\ttfamily int Server.\+Server\+Connexion.\+Room.\+get\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classServer_1_1ServerConnexion_1_1Room_a770cf7370fbcf6cef279f4ea260159fe}\label{classServer_1_1ServerConnexion_1_1Room_a770cf7370fbcf6cef279f4ea260159fe}} 
+\index{Server\+::\+Server\+Connexion\+::\+Room@{Server\+::\+Server\+Connexion\+::\+Room}!get\+Room\+Infos@{get\+Room\+Infos}}
+\index{get\+Room\+Infos@{get\+Room\+Infos}!Server\+::\+Server\+Connexion\+::\+Room@{Server\+::\+Server\+Connexion\+::\+Room}}
+\subsubsection{\texorpdfstring{get\+Room\+Infos()}{getRoomInfos()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classCommon_1_1RoomInfo}{Room\+Info}} Server.\+Server\+Connexion.\+Room.\+get\+Room\+Infos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classServer_1_1ServerConnexion_1_1Room_a82aa25bc3f5406ce06589c92f12f59e1}\label{classServer_1_1ServerConnexion_1_1Room_a82aa25bc3f5406ce06589c92f12f59e1}} 
+\index{Server\+::\+Server\+Connexion\+::\+Room@{Server\+::\+Server\+Connexion\+::\+Room}!get\+Server@{get\+Server}}
+\index{get\+Server@{get\+Server}!Server\+::\+Server\+Connexion\+::\+Room@{Server\+::\+Server\+Connexion\+::\+Room}}
+\subsubsection{\texorpdfstring{get\+Server()}{getServer()}}
+{\footnotesize\ttfamily Server Server.\+Server\+Connexion.\+Room.\+get\+Server (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classServer_1_1ServerConnexion_1_1Room_a952b0f724c1f5e04a78a70dfed594c20}\label{classServer_1_1ServerConnexion_1_1Room_a952b0f724c1f5e04a78a70dfed594c20}} 
+\index{Server\+::\+Server\+Connexion\+::\+Room@{Server\+::\+Server\+Connexion\+::\+Room}!how\+Many\+Clients@{how\+Many\+Clients}}
+\index{how\+Many\+Clients@{how\+Many\+Clients}!Server\+::\+Server\+Connexion\+::\+Room@{Server\+::\+Server\+Connexion\+::\+Room}}
+\subsubsection{\texorpdfstring{how\+Many\+Clients()}{howManyClients()}}
+{\footnotesize\ttfamily int Server.\+Server\+Connexion.\+Room.\+how\+Many\+Clients (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classServer_1_1ServerConnexion_1_1Room_a2e67e0da5adef24542d2082828e75a88}\label{classServer_1_1ServerConnexion_1_1Room_a2e67e0da5adef24542d2082828e75a88}} 
+\index{Server\+::\+Server\+Connexion\+::\+Room@{Server\+::\+Server\+Connexion\+::\+Room}!is\+Everyone\+Ready@{is\+Everyone\+Ready}}
+\index{is\+Everyone\+Ready@{is\+Everyone\+Ready}!Server\+::\+Server\+Connexion\+::\+Room@{Server\+::\+Server\+Connexion\+::\+Room}}
+\subsubsection{\texorpdfstring{is\+Everyone\+Ready()}{isEveryoneReady()}}
+{\footnotesize\ttfamily boolean Server.\+Server\+Connexion.\+Room.\+is\+Everyone\+Ready (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classServer_1_1ServerConnexion_1_1Room_a6a2dd1ea8ed605869b42d4b2a183acc4}\label{classServer_1_1ServerConnexion_1_1Room_a6a2dd1ea8ed605869b42d4b2a183acc4}} 
+\index{Server\+::\+Server\+Connexion\+::\+Room@{Server\+::\+Server\+Connexion\+::\+Room}!redistribute@{redistribute}}
+\index{redistribute@{redistribute}!Server\+::\+Server\+Connexion\+::\+Room@{Server\+::\+Server\+Connexion\+::\+Room}}
+\subsubsection{\texorpdfstring{redistribute()}{redistribute()}}
+{\footnotesize\ttfamily void Server.\+Server\+Connexion.\+Room.\+redistribute (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classServer_1_1ServerConnexion_1_1Room_a53c24cabf3f30a8aff5e4a563d5f08d7}\label{classServer_1_1ServerConnexion_1_1Room_a53c24cabf3f30a8aff5e4a563d5f08d7}} 
+\index{Server\+::\+Server\+Connexion\+::\+Room@{Server\+::\+Server\+Connexion\+::\+Room}!send\+All\+Message@{send\+All\+Message}}
+\index{send\+All\+Message@{send\+All\+Message}!Server\+::\+Server\+Connexion\+::\+Room@{Server\+::\+Server\+Connexion\+::\+Room}}
+\subsubsection{\texorpdfstring{send\+All\+Message()}{sendAllMessage()}}
+{\footnotesize\ttfamily void Server.\+Server\+Connexion.\+Room.\+send\+All\+Message (\begin{DoxyParamCaption}\item[{Object}]{o }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classServer_1_1ServerConnexion_1_1Room_a7cd935fd7d302c107bb42d8c7faf5d75}\label{classServer_1_1ServerConnexion_1_1Room_a7cd935fd7d302c107bb42d8c7faf5d75}} 
+\index{Server\+::\+Server\+Connexion\+::\+Room@{Server\+::\+Server\+Connexion\+::\+Room}!send\+To\+Room@{send\+To\+Room}}
+\index{send\+To\+Room@{send\+To\+Room}!Server\+::\+Server\+Connexion\+::\+Room@{Server\+::\+Server\+Connexion\+::\+Room}}
+\subsubsection{\texorpdfstring{send\+To\+Room()}{sendToRoom()}}
+{\footnotesize\ttfamily void Server.\+Server\+Connexion.\+Room.\+send\+To\+Room (\begin{DoxyParamCaption}\item[{Object}]{o }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classServer_1_1ServerConnexion_1_1Room_a5b478e86f07cb7f40db27f8db26fb955}\label{classServer_1_1ServerConnexion_1_1Room_a5b478e86f07cb7f40db27f8db26fb955}} 
+\index{Server\+::\+Server\+Connexion\+::\+Room@{Server\+::\+Server\+Connexion\+::\+Room}!try\+Remove\+Client@{try\+Remove\+Client}}
+\index{try\+Remove\+Client@{try\+Remove\+Client}!Server\+::\+Server\+Connexion\+::\+Room@{Server\+::\+Server\+Connexion\+::\+Room}}
+\subsubsection{\texorpdfstring{try\+Remove\+Client()}{tryRemoveClient()}}
+{\footnotesize\ttfamily boolean Server.\+Server\+Connexion.\+Room.\+try\+Remove\+Client (\begin{DoxyParamCaption}\item[{Integer}]{id,  }\item[{Concurrent\+Hash\+Map$<$ Integer, \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1Room}{Room}} $>$}]{room\+List }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/tetard/\+Idea\+Projects/j\+Coinche/\+Java\+\_\+jcoinche\+\_\+2017/src/main/java/\+Server/\+Server\+Connexion/\mbox{\hyperlink{Room_8java}{Room.\+java}}\end{DoxyCompactItemize}

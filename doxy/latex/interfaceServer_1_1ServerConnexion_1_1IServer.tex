@@ -1,0 +1,93 @@
+\hypertarget{interfaceServer_1_1ServerConnexion_1_1IServer}{}\section{Server.\+Server\+Connexion.\+I\+Server Interface Reference}
+\label{interfaceServer_1_1ServerConnexion_1_1IServer}\index{Server.\+Server\+Connexion.\+I\+Server@{Server.\+Server\+Connexion.\+I\+Server}}
+
+
+Inheritance diagram for Server.\+Server\+Connexion.\+I\+Server\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=256pt]{interfaceServer_1_1ServerConnexion_1_1IServer__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Server.\+Server\+Connexion.\+I\+Server\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=252pt]{interfaceServer_1_1ServerConnexion_1_1IServer__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{interfaceServer_1_1ServerConnexion_1_1IServer_a708adb2b4f2312b4319496d92357bd0e}{specify\+Port}} (int port)
+\item 
+void \mbox{\hyperlink{interfaceServer_1_1ServerConnexion_1_1IServer_a13c33c54ae46ee73c99ae8b9a70b9397}{start\+Server}} ()
+\item 
+void \mbox{\hyperlink{interfaceServer_1_1ServerConnexion_1_1IServer_abad216cef2fde213cfe1e69f2be7b496}{disconnect\+Server}} ()
+\item 
+Concurrent\+Hash\+Map$<$ Integer, \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1ClientInfos}{Client\+Infos}} $>$ \mbox{\hyperlink{interfaceServer_1_1ServerConnexion_1_1IServer_a0b71f139e86b01657d54b4be165d0c8d}{get\+Clients}} ()
+\item 
+void \mbox{\hyperlink{interfaceServer_1_1ServerConnexion_1_1IServer_a3b0485118add6720d6526c59605404d2}{create\+Room}} (\mbox{\hyperlink{classServer_1_1ServerConnexion_1_1ClientInfos}{Client\+Infos}} client)
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceServer_1_1ServerConnexion_1_1IServer_a3b0485118add6720d6526c59605404d2}\label{interfaceServer_1_1ServerConnexion_1_1IServer_a3b0485118add6720d6526c59605404d2}} 
+\index{Server\+::\+Server\+Connexion\+::\+I\+Server@{Server\+::\+Server\+Connexion\+::\+I\+Server}!create\+Room@{create\+Room}}
+\index{create\+Room@{create\+Room}!Server\+::\+Server\+Connexion\+::\+I\+Server@{Server\+::\+Server\+Connexion\+::\+I\+Server}}
+\subsubsection{\texorpdfstring{create\+Room()}{createRoom()}}
+{\footnotesize\ttfamily void Server.\+Server\+Connexion.\+I\+Server.\+create\+Room (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classServer_1_1ServerConnexion_1_1ClientInfos}{Client\+Infos}}}]{client }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1KryonetServer_ac594217673743346d963fa9e04f7a9dc}{Server.\+Server\+Connexion.\+Kryonet\+Server}}.
+
+\mbox{\Hypertarget{interfaceServer_1_1ServerConnexion_1_1IServer_abad216cef2fde213cfe1e69f2be7b496}\label{interfaceServer_1_1ServerConnexion_1_1IServer_abad216cef2fde213cfe1e69f2be7b496}} 
+\index{Server\+::\+Server\+Connexion\+::\+I\+Server@{Server\+::\+Server\+Connexion\+::\+I\+Server}!disconnect\+Server@{disconnect\+Server}}
+\index{disconnect\+Server@{disconnect\+Server}!Server\+::\+Server\+Connexion\+::\+I\+Server@{Server\+::\+Server\+Connexion\+::\+I\+Server}}
+\subsubsection{\texorpdfstring{disconnect\+Server()}{disconnectServer()}}
+{\footnotesize\ttfamily void Server.\+Server\+Connexion.\+I\+Server.\+disconnect\+Server (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1KryonetServer_a9ee03f7e9a0b2d685f4e70af32a8204e}{Server.\+Server\+Connexion.\+Kryonet\+Server}}.
+
+\mbox{\Hypertarget{interfaceServer_1_1ServerConnexion_1_1IServer_a0b71f139e86b01657d54b4be165d0c8d}\label{interfaceServer_1_1ServerConnexion_1_1IServer_a0b71f139e86b01657d54b4be165d0c8d}} 
+\index{Server\+::\+Server\+Connexion\+::\+I\+Server@{Server\+::\+Server\+Connexion\+::\+I\+Server}!get\+Clients@{get\+Clients}}
+\index{get\+Clients@{get\+Clients}!Server\+::\+Server\+Connexion\+::\+I\+Server@{Server\+::\+Server\+Connexion\+::\+I\+Server}}
+\subsubsection{\texorpdfstring{get\+Clients()}{getClients()}}
+{\footnotesize\ttfamily Concurrent\+Hash\+Map$<$Integer, \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1ClientInfos}{Client\+Infos}}$>$ Server.\+Server\+Connexion.\+I\+Server.\+get\+Clients (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1KryonetServer_a49d513edab305edc72d56d173dd44ad3}{Server.\+Server\+Connexion.\+Kryonet\+Server}}.
+
+\mbox{\Hypertarget{interfaceServer_1_1ServerConnexion_1_1IServer_a708adb2b4f2312b4319496d92357bd0e}\label{interfaceServer_1_1ServerConnexion_1_1IServer_a708adb2b4f2312b4319496d92357bd0e}} 
+\index{Server\+::\+Server\+Connexion\+::\+I\+Server@{Server\+::\+Server\+Connexion\+::\+I\+Server}!specify\+Port@{specify\+Port}}
+\index{specify\+Port@{specify\+Port}!Server\+::\+Server\+Connexion\+::\+I\+Server@{Server\+::\+Server\+Connexion\+::\+I\+Server}}
+\subsubsection{\texorpdfstring{specify\+Port()}{specifyPort()}}
+{\footnotesize\ttfamily void Server.\+Server\+Connexion.\+I\+Server.\+specify\+Port (\begin{DoxyParamCaption}\item[{int}]{port }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1KryonetServer_a5462e9f47eb97acd2d8353c825bf9f3b}{Server.\+Server\+Connexion.\+Kryonet\+Server}}.
+
+\mbox{\Hypertarget{interfaceServer_1_1ServerConnexion_1_1IServer_a13c33c54ae46ee73c99ae8b9a70b9397}\label{interfaceServer_1_1ServerConnexion_1_1IServer_a13c33c54ae46ee73c99ae8b9a70b9397}} 
+\index{Server\+::\+Server\+Connexion\+::\+I\+Server@{Server\+::\+Server\+Connexion\+::\+I\+Server}!start\+Server@{start\+Server}}
+\index{start\+Server@{start\+Server}!Server\+::\+Server\+Connexion\+::\+I\+Server@{Server\+::\+Server\+Connexion\+::\+I\+Server}}
+\subsubsection{\texorpdfstring{start\+Server()}{startServer()}}
+{\footnotesize\ttfamily void Server.\+Server\+Connexion.\+I\+Server.\+start\+Server (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{classServer_1_1ServerConnexion_1_1KryonetServer_a8bad9bf2baafbe83e2a6153c22b86bae}{Server.\+Server\+Connexion.\+Kryonet\+Server}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/tetard/\+Idea\+Projects/j\+Coinche/\+Java\+\_\+jcoinche\+\_\+2017/src/main/java/\+Server/\+Server\+Connexion/\mbox{\hyperlink{IServer_8java}{I\+Server.\+java}}\end{DoxyCompactItemize}

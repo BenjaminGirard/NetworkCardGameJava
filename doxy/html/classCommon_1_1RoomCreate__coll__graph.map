@@ -1,0 +1,3 @@
+<map id="Common.RoomCreate" name="Common.RoomCreate">
+<area shape="rect" id="node2" href="$classCommon_1_1RoomInfo.html" title="{Common.RoomInfo\n||+ RoomInfo()\l+ fill()\l+ addPlayer()\l+ removePlayer()\l+ getId()\l+ getPlayers()\l}" alt="" coords="137,315,285,465"/>
+</map>

@@ -1,0 +1,3 @@
+<map id="Server.ServerConnexion.IServer" name="Server.ServerConnexion.IServer">
+<area shape="rect" id="node2" href="$classServer_1_1ServerConnexion_1_1KryonetServer.html" title="{Server.ServerConnexion.Kryonet\lServer\n||+ KryonetServer()\l+ specifyPort()\l+ startServer()\l+ disconnectServer()\l+ getClients()\l+ createRoom()\l+ getServer()\l+ getRoom()\l+ getRooms()\l+ getClient()\l+ debugServer()\l~ isUserNameValid()\l}" alt="" coords="5,189,240,443"/>
+</map>

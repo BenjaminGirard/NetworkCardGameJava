@@ -1,0 +1,5 @@
+<map id="Server.Core" name="Server.Core">
+<area shape="rect" id="node2" href="$classServer_1_1ServerConnexion_1_1KryonetServer.html" title="{Server.ServerConnexion.Kryonet\lServer\n||+ KryonetServer()\l+ specifyPort()\l+ startServer()\l+ disconnectServer()\l+ getClients()\l+ createRoom()\l+ getServer()\l+ getRoom()\l+ getRooms()\l+ getClient()\l+ debugServer()\l~ isUserNameValid()\l}" alt="" coords="5,191,240,444"/>
+<area shape="rect" id="node4" href="$classServer_1_1ServerConnexion_1_1RequestHandler.html" title="{Server.ServerConnexion.Request\lHandler\n||+ RequestHandler()\l+ handleRequest()\l+ handleCardPlayed()\l+ handleIAmReady()\l+ handlePlayerCallResponse()\l}" alt="" coords="190,507,426,657"/>
+<area shape="rect" id="node3" href="$interfaceServer_1_1ServerConnexion_1_1IServer.html" title="{Server.ServerConnexion.IServer\n||+ specifyPort()\l+ startServer()\l+ disconnectServer()\l+ getClients()\l+ createRoom()\l}" alt="" coords="8,5,237,141"/>
+</map>

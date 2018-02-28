@@ -1,0 +1,258 @@
+\hypertarget{classClient_1_1Controller}{}\section{Client.\+Controller Class Reference}
+\label{classClient_1_1Controller}\index{Client.\+Controller@{Client.\+Controller}}
+
+
+Collaboration diagram for Client.\+Controller\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classClient_1_1Controller__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classClient_1_1Controller_a65c1ddbad549d42f6ba2f6b3399298f3}{Controller}} (String ip\+Adress, int port)  throws I\+O\+Exception 
+\item 
+\mbox{\hyperlink{classClient_1_1NetWork_1_1ClientConnection}{Client\+Connection}} \mbox{\hyperlink{classClient_1_1Controller_a4fa5b128b0e5bc44b3d43d43a0138947}{get\+Cl}} ()
+\item 
+void \mbox{\hyperlink{classClient_1_1Controller_a8ceabaf6a812062b80ac436051788c80}{set\+Cl}} (\mbox{\hyperlink{classClient_1_1NetWork_1_1ClientConnection}{Client\+Connection}} cl)
+\item 
+\mbox{\hyperlink{classClient_1_1Model_1_1RoomListModel}{Room\+List\+Model}} \mbox{\hyperlink{classClient_1_1Controller_ab33c8837d38c317e03eb6e85e004b586}{get\+Rlm}} ()
+\item 
+void \mbox{\hyperlink{classClient_1_1Controller_a5d1f7a0a03cf8c3fc186e146ee120ba4}{set\+Rlm}} (\mbox{\hyperlink{classClient_1_1Model_1_1RoomListModel}{Room\+List\+Model}} rlm)
+\item 
+\mbox{\hyperlink{classClient_1_1Model_1_1InstanceModel}{Instance\+Model}} \mbox{\hyperlink{classClient_1_1Controller_a5cf5f6cb57dab7e260afbf74d6fb4172}{get\+Im}} ()
+\item 
+void \mbox{\hyperlink{classClient_1_1Controller_a1fc8a5aa222b67716c38d619859f705f}{set\+Im}} (\mbox{\hyperlink{classClient_1_1Model_1_1InstanceModel}{Instance\+Model}} im)
+\item 
+void \mbox{\hyperlink{classClient_1_1Controller_af3340930e5e87ff85c999d1ace5599e5}{ask\+Create\+Room}} ()
+\item 
+void \mbox{\hyperlink{classClient_1_1Controller_a4fc90c7e8e74086df88c51eed886c3b8}{ask\+User\+Auth}} ()
+\item 
+void \mbox{\hyperlink{classClient_1_1Controller_af426bc10eea7f6e7655ff2236b8c160f}{ask\+Leave\+Room}} ()
+\item 
+void \mbox{\hyperlink{classClient_1_1Controller_a934e1454a2178677cfb7df0d6a6ae54e}{show\+Room\+List}} ()
+\item 
+void \mbox{\hyperlink{classClient_1_1Controller_af60204a5c842fb77982ae3e8e6635f62}{try\+Join\+Room}} ()
+\item 
+void \mbox{\hyperlink{classClient_1_1Controller_a7c0ed9c77e04d29b17c75f1141c2bb48}{send\+I\+Am\+Ready}} ()
+\item 
+void \mbox{\hyperlink{classClient_1_1Controller_a82502998a9b3553fb2ab6430f5b4c423}{show\+Hand\+Cards}} ()
+\item 
+void \mbox{\hyperlink{classClient_1_1Controller_ad5bc67e5929bedf225177d9df9179bfa}{pass\+Announce}} ()
+\item 
+void \mbox{\hyperlink{classClient_1_1Controller_a8d3cf754e228f3ca544c718a27f7877c}{send\+Call\+Response}} (\mbox{\hyperlink{enumCommon_1_1Trump}{Trump}} trump, int call)
+\item 
+void \mbox{\hyperlink{classClient_1_1Controller_af842d2577950491742f5843b6c8c2a93}{trump\+Announce}} (int call)
+\item 
+void \mbox{\hyperlink{classClient_1_1Controller_a01335f929950989cf1723b1b845cdd6d}{call\+Announce}} ()
+\item 
+void \mbox{\hyperlink{classClient_1_1Controller_ab188da27fe6cdc563242921dc3028764}{try\+Call}} ()
+\item 
+void \mbox{\hyperlink{classClient_1_1Controller_af7c67fae279ad06b4513ef68ac71294c}{helper}} ()
+\item 
+void \mbox{\hyperlink{classClient_1_1Controller_a36f8d304cc2e332a5cab8152dc85d2c0}{disconnect}} ()
+\item 
+void \mbox{\hyperlink{classClient_1_1Controller_af9f113ff4ab7d8cd478289337df6a423}{fill\+Commands}} (Hash\+Map$<$ String, Runnable $>$ commands)
+\item 
+void \mbox{\hyperlink{classClient_1_1Controller_a71280e16a0746357f5a7302cfb6a0ac8}{i\+Am\+Moving\+Room}} (\mbox{\hyperlink{classCommon_1_1RoomMovingClient}{Room\+Moving\+Client}} move\+Info, \mbox{\hyperlink{classCommon_1_1RoomInfo}{Room\+Info}} modified\+Room)
+\item 
+void \mbox{\hyperlink{classClient_1_1Controller_a880e33fad7f0f2ad543ead04bcd6d2b7}{a\+Player\+Is\+Moving}} (\mbox{\hyperlink{classCommon_1_1RoomMovingClient}{Room\+Moving\+Client}} move\+Info, \mbox{\hyperlink{classCommon_1_1RoomInfo}{Room\+Info}} modified\+Room)
+\item 
+void \mbox{\hyperlink{classClient_1_1Controller_a0998c48fef0c6299b77d130b0e0e55e9}{print\+Table\+Cards}} ()
+\item 
+void \mbox{\hyperlink{classClient_1_1Controller_a09f717b23bc1405a9376b308797f8bd1}{show\+Card\+To\+Choose}} ()
+\item 
+void \mbox{\hyperlink{classClient_1_1Controller_ab9335d600e913fdff0adec8b7f2e7e8a}{choose\+Card\+To\+Play}} ()
+\item 
+void \mbox{\hyperlink{classClient_1_1Controller_a00dd0f9866d799470fa967da62f8964b}{card\+Played}} (\mbox{\hyperlink{classCommon_1_1CardPlayed}{Card\+Played}} card\+Played)
+\item 
+void \mbox{\hyperlink{classClient_1_1Controller_ae9bd948fb834b86f9b6bee647082bda9}{start}} ()  throws Interrupted\+Exception 
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classClient_1_1Controller_a65c1ddbad549d42f6ba2f6b3399298f3}\label{classClient_1_1Controller_a65c1ddbad549d42f6ba2f6b3399298f3}} 
+\index{Client\+::\+Controller@{Client\+::\+Controller}!Controller@{Controller}}
+\index{Controller@{Controller}!Client\+::\+Controller@{Client\+::\+Controller}}
+\subsubsection{\texorpdfstring{Controller()}{Controller()}}
+{\footnotesize\ttfamily Client.\+Controller.\+Controller (\begin{DoxyParamCaption}\item[{String}]{ip\+Adress,  }\item[{int}]{port }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classClient_1_1Controller_a880e33fad7f0f2ad543ead04bcd6d2b7}\label{classClient_1_1Controller_a880e33fad7f0f2ad543ead04bcd6d2b7}} 
+\index{Client\+::\+Controller@{Client\+::\+Controller}!a\+Player\+Is\+Moving@{a\+Player\+Is\+Moving}}
+\index{a\+Player\+Is\+Moving@{a\+Player\+Is\+Moving}!Client\+::\+Controller@{Client\+::\+Controller}}
+\subsubsection{\texorpdfstring{a\+Player\+Is\+Moving()}{aPlayerIsMoving()}}
+{\footnotesize\ttfamily void Client.\+Controller.\+a\+Player\+Is\+Moving (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCommon_1_1RoomMovingClient}{Room\+Moving\+Client}}}]{move\+Info,  }\item[{\mbox{\hyperlink{classCommon_1_1RoomInfo}{Room\+Info}}}]{modified\+Room }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classClient_1_1Controller_af3340930e5e87ff85c999d1ace5599e5}\label{classClient_1_1Controller_af3340930e5e87ff85c999d1ace5599e5}} 
+\index{Client\+::\+Controller@{Client\+::\+Controller}!ask\+Create\+Room@{ask\+Create\+Room}}
+\index{ask\+Create\+Room@{ask\+Create\+Room}!Client\+::\+Controller@{Client\+::\+Controller}}
+\subsubsection{\texorpdfstring{ask\+Create\+Room()}{askCreateRoom()}}
+{\footnotesize\ttfamily void Client.\+Controller.\+ask\+Create\+Room (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classClient_1_1Controller_af426bc10eea7f6e7655ff2236b8c160f}\label{classClient_1_1Controller_af426bc10eea7f6e7655ff2236b8c160f}} 
+\index{Client\+::\+Controller@{Client\+::\+Controller}!ask\+Leave\+Room@{ask\+Leave\+Room}}
+\index{ask\+Leave\+Room@{ask\+Leave\+Room}!Client\+::\+Controller@{Client\+::\+Controller}}
+\subsubsection{\texorpdfstring{ask\+Leave\+Room()}{askLeaveRoom()}}
+{\footnotesize\ttfamily void Client.\+Controller.\+ask\+Leave\+Room (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classClient_1_1Controller_a4fc90c7e8e74086df88c51eed886c3b8}\label{classClient_1_1Controller_a4fc90c7e8e74086df88c51eed886c3b8}} 
+\index{Client\+::\+Controller@{Client\+::\+Controller}!ask\+User\+Auth@{ask\+User\+Auth}}
+\index{ask\+User\+Auth@{ask\+User\+Auth}!Client\+::\+Controller@{Client\+::\+Controller}}
+\subsubsection{\texorpdfstring{ask\+User\+Auth()}{askUserAuth()}}
+{\footnotesize\ttfamily void Client.\+Controller.\+ask\+User\+Auth (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classClient_1_1Controller_a01335f929950989cf1723b1b845cdd6d}\label{classClient_1_1Controller_a01335f929950989cf1723b1b845cdd6d}} 
+\index{Client\+::\+Controller@{Client\+::\+Controller}!call\+Announce@{call\+Announce}}
+\index{call\+Announce@{call\+Announce}!Client\+::\+Controller@{Client\+::\+Controller}}
+\subsubsection{\texorpdfstring{call\+Announce()}{callAnnounce()}}
+{\footnotesize\ttfamily void Client.\+Controller.\+call\+Announce (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classClient_1_1Controller_a00dd0f9866d799470fa967da62f8964b}\label{classClient_1_1Controller_a00dd0f9866d799470fa967da62f8964b}} 
+\index{Client\+::\+Controller@{Client\+::\+Controller}!card\+Played@{card\+Played}}
+\index{card\+Played@{card\+Played}!Client\+::\+Controller@{Client\+::\+Controller}}
+\subsubsection{\texorpdfstring{card\+Played()}{cardPlayed()}}
+{\footnotesize\ttfamily void Client.\+Controller.\+card\+Played (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCommon_1_1CardPlayed}{Card\+Played}}}]{card\+Played }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classClient_1_1Controller_ab9335d600e913fdff0adec8b7f2e7e8a}\label{classClient_1_1Controller_ab9335d600e913fdff0adec8b7f2e7e8a}} 
+\index{Client\+::\+Controller@{Client\+::\+Controller}!choose\+Card\+To\+Play@{choose\+Card\+To\+Play}}
+\index{choose\+Card\+To\+Play@{choose\+Card\+To\+Play}!Client\+::\+Controller@{Client\+::\+Controller}}
+\subsubsection{\texorpdfstring{choose\+Card\+To\+Play()}{chooseCardToPlay()}}
+{\footnotesize\ttfamily void Client.\+Controller.\+choose\+Card\+To\+Play (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classClient_1_1Controller_a36f8d304cc2e332a5cab8152dc85d2c0}\label{classClient_1_1Controller_a36f8d304cc2e332a5cab8152dc85d2c0}} 
+\index{Client\+::\+Controller@{Client\+::\+Controller}!disconnect@{disconnect}}
+\index{disconnect@{disconnect}!Client\+::\+Controller@{Client\+::\+Controller}}
+\subsubsection{\texorpdfstring{disconnect()}{disconnect()}}
+{\footnotesize\ttfamily void Client.\+Controller.\+disconnect (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classClient_1_1Controller_af9f113ff4ab7d8cd478289337df6a423}\label{classClient_1_1Controller_af9f113ff4ab7d8cd478289337df6a423}} 
+\index{Client\+::\+Controller@{Client\+::\+Controller}!fill\+Commands@{fill\+Commands}}
+\index{fill\+Commands@{fill\+Commands}!Client\+::\+Controller@{Client\+::\+Controller}}
+\subsubsection{\texorpdfstring{fill\+Commands()}{fillCommands()}}
+{\footnotesize\ttfamily void Client.\+Controller.\+fill\+Commands (\begin{DoxyParamCaption}\item[{Hash\+Map$<$ String, Runnable $>$}]{commands }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classClient_1_1Controller_a4fa5b128b0e5bc44b3d43d43a0138947}\label{classClient_1_1Controller_a4fa5b128b0e5bc44b3d43d43a0138947}} 
+\index{Client\+::\+Controller@{Client\+::\+Controller}!get\+Cl@{get\+Cl}}
+\index{get\+Cl@{get\+Cl}!Client\+::\+Controller@{Client\+::\+Controller}}
+\subsubsection{\texorpdfstring{get\+Cl()}{getCl()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classClient_1_1NetWork_1_1ClientConnection}{Client\+Connection}} Client.\+Controller.\+get\+Cl (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classClient_1_1Controller_a5cf5f6cb57dab7e260afbf74d6fb4172}\label{classClient_1_1Controller_a5cf5f6cb57dab7e260afbf74d6fb4172}} 
+\index{Client\+::\+Controller@{Client\+::\+Controller}!get\+Im@{get\+Im}}
+\index{get\+Im@{get\+Im}!Client\+::\+Controller@{Client\+::\+Controller}}
+\subsubsection{\texorpdfstring{get\+Im()}{getIm()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classClient_1_1Model_1_1InstanceModel}{Instance\+Model}} Client.\+Controller.\+get\+Im (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classClient_1_1Controller_ab33c8837d38c317e03eb6e85e004b586}\label{classClient_1_1Controller_ab33c8837d38c317e03eb6e85e004b586}} 
+\index{Client\+::\+Controller@{Client\+::\+Controller}!get\+Rlm@{get\+Rlm}}
+\index{get\+Rlm@{get\+Rlm}!Client\+::\+Controller@{Client\+::\+Controller}}
+\subsubsection{\texorpdfstring{get\+Rlm()}{getRlm()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classClient_1_1Model_1_1RoomListModel}{Room\+List\+Model}} Client.\+Controller.\+get\+Rlm (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classClient_1_1Controller_af7c67fae279ad06b4513ef68ac71294c}\label{classClient_1_1Controller_af7c67fae279ad06b4513ef68ac71294c}} 
+\index{Client\+::\+Controller@{Client\+::\+Controller}!helper@{helper}}
+\index{helper@{helper}!Client\+::\+Controller@{Client\+::\+Controller}}
+\subsubsection{\texorpdfstring{helper()}{helper()}}
+{\footnotesize\ttfamily void Client.\+Controller.\+helper (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classClient_1_1Controller_a71280e16a0746357f5a7302cfb6a0ac8}\label{classClient_1_1Controller_a71280e16a0746357f5a7302cfb6a0ac8}} 
+\index{Client\+::\+Controller@{Client\+::\+Controller}!i\+Am\+Moving\+Room@{i\+Am\+Moving\+Room}}
+\index{i\+Am\+Moving\+Room@{i\+Am\+Moving\+Room}!Client\+::\+Controller@{Client\+::\+Controller}}
+\subsubsection{\texorpdfstring{i\+Am\+Moving\+Room()}{iAmMovingRoom()}}
+{\footnotesize\ttfamily void Client.\+Controller.\+i\+Am\+Moving\+Room (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCommon_1_1RoomMovingClient}{Room\+Moving\+Client}}}]{move\+Info,  }\item[{\mbox{\hyperlink{classCommon_1_1RoomInfo}{Room\+Info}}}]{modified\+Room }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classClient_1_1Controller_ad5bc67e5929bedf225177d9df9179bfa}\label{classClient_1_1Controller_ad5bc67e5929bedf225177d9df9179bfa}} 
+\index{Client\+::\+Controller@{Client\+::\+Controller}!pass\+Announce@{pass\+Announce}}
+\index{pass\+Announce@{pass\+Announce}!Client\+::\+Controller@{Client\+::\+Controller}}
+\subsubsection{\texorpdfstring{pass\+Announce()}{passAnnounce()}}
+{\footnotesize\ttfamily void Client.\+Controller.\+pass\+Announce (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classClient_1_1Controller_a0998c48fef0c6299b77d130b0e0e55e9}\label{classClient_1_1Controller_a0998c48fef0c6299b77d130b0e0e55e9}} 
+\index{Client\+::\+Controller@{Client\+::\+Controller}!print\+Table\+Cards@{print\+Table\+Cards}}
+\index{print\+Table\+Cards@{print\+Table\+Cards}!Client\+::\+Controller@{Client\+::\+Controller}}
+\subsubsection{\texorpdfstring{print\+Table\+Cards()}{printTableCards()}}
+{\footnotesize\ttfamily void Client.\+Controller.\+print\+Table\+Cards (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classClient_1_1Controller_a8d3cf754e228f3ca544c718a27f7877c}\label{classClient_1_1Controller_a8d3cf754e228f3ca544c718a27f7877c}} 
+\index{Client\+::\+Controller@{Client\+::\+Controller}!send\+Call\+Response@{send\+Call\+Response}}
+\index{send\+Call\+Response@{send\+Call\+Response}!Client\+::\+Controller@{Client\+::\+Controller}}
+\subsubsection{\texorpdfstring{send\+Call\+Response()}{sendCallResponse()}}
+{\footnotesize\ttfamily void Client.\+Controller.\+send\+Call\+Response (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{enumCommon_1_1Trump}{Trump}}}]{trump,  }\item[{int}]{call }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classClient_1_1Controller_a7c0ed9c77e04d29b17c75f1141c2bb48}\label{classClient_1_1Controller_a7c0ed9c77e04d29b17c75f1141c2bb48}} 
+\index{Client\+::\+Controller@{Client\+::\+Controller}!send\+I\+Am\+Ready@{send\+I\+Am\+Ready}}
+\index{send\+I\+Am\+Ready@{send\+I\+Am\+Ready}!Client\+::\+Controller@{Client\+::\+Controller}}
+\subsubsection{\texorpdfstring{send\+I\+Am\+Ready()}{sendIAmReady()}}
+{\footnotesize\ttfamily void Client.\+Controller.\+send\+I\+Am\+Ready (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classClient_1_1Controller_a8ceabaf6a812062b80ac436051788c80}\label{classClient_1_1Controller_a8ceabaf6a812062b80ac436051788c80}} 
+\index{Client\+::\+Controller@{Client\+::\+Controller}!set\+Cl@{set\+Cl}}
+\index{set\+Cl@{set\+Cl}!Client\+::\+Controller@{Client\+::\+Controller}}
+\subsubsection{\texorpdfstring{set\+Cl()}{setCl()}}
+{\footnotesize\ttfamily void Client.\+Controller.\+set\+Cl (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classClient_1_1NetWork_1_1ClientConnection}{Client\+Connection}}}]{cl }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classClient_1_1Controller_a1fc8a5aa222b67716c38d619859f705f}\label{classClient_1_1Controller_a1fc8a5aa222b67716c38d619859f705f}} 
+\index{Client\+::\+Controller@{Client\+::\+Controller}!set\+Im@{set\+Im}}
+\index{set\+Im@{set\+Im}!Client\+::\+Controller@{Client\+::\+Controller}}
+\subsubsection{\texorpdfstring{set\+Im()}{setIm()}}
+{\footnotesize\ttfamily void Client.\+Controller.\+set\+Im (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classClient_1_1Model_1_1InstanceModel}{Instance\+Model}}}]{im }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classClient_1_1Controller_a5d1f7a0a03cf8c3fc186e146ee120ba4}\label{classClient_1_1Controller_a5d1f7a0a03cf8c3fc186e146ee120ba4}} 
+\index{Client\+::\+Controller@{Client\+::\+Controller}!set\+Rlm@{set\+Rlm}}
+\index{set\+Rlm@{set\+Rlm}!Client\+::\+Controller@{Client\+::\+Controller}}
+\subsubsection{\texorpdfstring{set\+Rlm()}{setRlm()}}
+{\footnotesize\ttfamily void Client.\+Controller.\+set\+Rlm (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classClient_1_1Model_1_1RoomListModel}{Room\+List\+Model}}}]{rlm }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classClient_1_1Controller_a09f717b23bc1405a9376b308797f8bd1}\label{classClient_1_1Controller_a09f717b23bc1405a9376b308797f8bd1}} 
+\index{Client\+::\+Controller@{Client\+::\+Controller}!show\+Card\+To\+Choose@{show\+Card\+To\+Choose}}
+\index{show\+Card\+To\+Choose@{show\+Card\+To\+Choose}!Client\+::\+Controller@{Client\+::\+Controller}}
+\subsubsection{\texorpdfstring{show\+Card\+To\+Choose()}{showCardToChoose()}}
+{\footnotesize\ttfamily void Client.\+Controller.\+show\+Card\+To\+Choose (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classClient_1_1Controller_a82502998a9b3553fb2ab6430f5b4c423}\label{classClient_1_1Controller_a82502998a9b3553fb2ab6430f5b4c423}} 
+\index{Client\+::\+Controller@{Client\+::\+Controller}!show\+Hand\+Cards@{show\+Hand\+Cards}}
+\index{show\+Hand\+Cards@{show\+Hand\+Cards}!Client\+::\+Controller@{Client\+::\+Controller}}
+\subsubsection{\texorpdfstring{show\+Hand\+Cards()}{showHandCards()}}
+{\footnotesize\ttfamily void Client.\+Controller.\+show\+Hand\+Cards (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classClient_1_1Controller_a934e1454a2178677cfb7df0d6a6ae54e}\label{classClient_1_1Controller_a934e1454a2178677cfb7df0d6a6ae54e}} 
+\index{Client\+::\+Controller@{Client\+::\+Controller}!show\+Room\+List@{show\+Room\+List}}
+\index{show\+Room\+List@{show\+Room\+List}!Client\+::\+Controller@{Client\+::\+Controller}}
+\subsubsection{\texorpdfstring{show\+Room\+List()}{showRoomList()}}
+{\footnotesize\ttfamily void Client.\+Controller.\+show\+Room\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classClient_1_1Controller_ae9bd948fb834b86f9b6bee647082bda9}\label{classClient_1_1Controller_ae9bd948fb834b86f9b6bee647082bda9}} 
+\index{Client\+::\+Controller@{Client\+::\+Controller}!start@{start}}
+\index{start@{start}!Client\+::\+Controller@{Client\+::\+Controller}}
+\subsubsection{\texorpdfstring{start()}{start()}}
+{\footnotesize\ttfamily void Client.\+Controller.\+start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Interrupted\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classClient_1_1Controller_af842d2577950491742f5843b6c8c2a93}\label{classClient_1_1Controller_af842d2577950491742f5843b6c8c2a93}} 
+\index{Client\+::\+Controller@{Client\+::\+Controller}!trump\+Announce@{trump\+Announce}}
+\index{trump\+Announce@{trump\+Announce}!Client\+::\+Controller@{Client\+::\+Controller}}
+\subsubsection{\texorpdfstring{trump\+Announce()}{trumpAnnounce()}}
+{\footnotesize\ttfamily void Client.\+Controller.\+trump\+Announce (\begin{DoxyParamCaption}\item[{int}]{call }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classClient_1_1Controller_ab188da27fe6cdc563242921dc3028764}\label{classClient_1_1Controller_ab188da27fe6cdc563242921dc3028764}} 
+\index{Client\+::\+Controller@{Client\+::\+Controller}!try\+Call@{try\+Call}}
+\index{try\+Call@{try\+Call}!Client\+::\+Controller@{Client\+::\+Controller}}
+\subsubsection{\texorpdfstring{try\+Call()}{tryCall()}}
+{\footnotesize\ttfamily void Client.\+Controller.\+try\+Call (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classClient_1_1Controller_af60204a5c842fb77982ae3e8e6635f62}\label{classClient_1_1Controller_af60204a5c842fb77982ae3e8e6635f62}} 
+\index{Client\+::\+Controller@{Client\+::\+Controller}!try\+Join\+Room@{try\+Join\+Room}}
+\index{try\+Join\+Room@{try\+Join\+Room}!Client\+::\+Controller@{Client\+::\+Controller}}
+\subsubsection{\texorpdfstring{try\+Join\+Room()}{tryJoinRoom()}}
+{\footnotesize\ttfamily void Client.\+Controller.\+try\+Join\+Room (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/tetard/\+Idea\+Projects/j\+Coinche/\+Java\+\_\+jcoinche\+\_\+2017/src/main/java/\+Client/\mbox{\hyperlink{Controller_8java}{Controller.\+java}}\end{DoxyCompactItemize}

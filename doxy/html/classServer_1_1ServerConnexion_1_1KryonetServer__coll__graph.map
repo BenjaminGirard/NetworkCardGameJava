@@ -1,0 +1,3 @@
+<map id="Server.ServerConnexion.KryonetServer" name="Server.ServerConnexion.KryonetServer">
+<area shape="rect" id="node2" href="$interfaceServer_1_1ServerConnexion_1_1IServer.html" title="{Server.ServerConnexion.IServer\n||+ specifyPort()\l+ startServer()\l+ disconnectServer()\l+ getClients()\l+ createRoom()\l}" alt="" coords="8,5,237,141"/>
+</map>
